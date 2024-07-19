@@ -20,7 +20,7 @@ Fixed::Fixed(const Fixed &copy)
 
 Fixed& Fixed::operator=(const Fixed &ref)
 {
-	std::cout << "Assigment opperator called" << std::endl;
+	std::cout << "Copy assigment opperator called" << std::endl;
 	this->_value = ref.getRawBits();
 	return (*this);
 }
